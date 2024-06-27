@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 70px);
+
+    gap: 0px;
+
+    justify-content: center;
+
+}
+
+.mini_cell {
+    padding: 0;
+
+}
+
+.cell {
+    width: 70px;
+
+    height: 70px;
+
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    box-sizing: border-box;
+
+}

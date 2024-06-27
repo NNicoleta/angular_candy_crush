@@ -1,0 +1,7 @@
+<div class="board">
+    <div *ngFor="let cell of Candy_cells; let i = index" [ngStyle]="{'background-color': cell.Color}" class="cell"
+        [attr.data-id]="i" draggable="true" (dragstart)="dragStart($event, i)" (dragover)="onDragOver($event)"
+        (dragenter)="onDragEnter($event)" (dragleave)="onDragLeave($event)" (drop)="dragDrop($event, i)"
+        (dragend)="dragEnd($event, i)">
+    </div>
+</div>

@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    width: auto;
+    height: 2000px;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container_btn {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+
+}
+
+
+thead,
+h2 {
+    color: red;
+}
+
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #000;
+}

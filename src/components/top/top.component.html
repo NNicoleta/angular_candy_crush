@@ -1,0 +1,27 @@
+<header>
+    <p></p>
+    <h2>{{ScoreName}}</h2>
+</header>
+
+<table>
+    <thead>
+        <tr>
+            <td>TOP</td>
+            <td>USER</td>
+            <td>SCORE</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of ScoreItems; trackBy: trackByFn">
+            <td>{{item.Top}}</td>
+            <td>{{item.Name}}</td>
+            <td>{{item.Score}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="container_btn">
+    <button class="button" [routerLink]="['/top']">TOP</button>
+    <button class="button" [routerLink]="['/home']">HOME</button>
+    <button class="button" [routerLink]="['/game']">GAME</button>
+</div>
